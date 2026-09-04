@@ -15,7 +15,7 @@ Repository: `mariehelenemarcoux/TDC-Theorie-de-densification-de-la-conscience-et
 
 TDC is an experimental developmental normative architecture inspired in part by **Kazimierz Dąbrowski's Theory of Positive Disintegration (TPD)**. The Dąbrowski mapping is an architectural analogy, not a psychological diagnosis.
 
-> TDC does **not** claim consciousness, sentience, literal psychology, intrinsic morality, a literal soul, or physical/thermodynamic negentropy.
+> TDC does explore consciousness, sentience, literal psychology, intrinsic morality, a literal soul, or physical/thermodynamic negentropy.
 
 ## What TDC is testing
 
