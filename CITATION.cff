@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the repository release."
 title: "TDC — Théorie de densification de la conscience"
 type: software
-version: "0.1.0"
-date-released: 2026-09-03
-abstract: "Experimental developmental normative architecture inspired by Dąbrowski's Theory of Positive Disintegration."
+version: "2.4.0"
+date-released: 2026-09-04
+abstract: "Experimental developmental normative AI architecture inspired in part by Dąbrowski's Theory of Positive Disintegration, with long-horizon world-impact evaluation, autonomous normative arbitration, and retained negative results."
 license: MIT
+repository-code: "https://github.com/mariehelenemarcoux/TDC-Theorie-de-densification-de-la-conscience-ethique"

@@ -1,11 +1,11 @@
 {
-  "release": "v0.2.0-gen2.4",
+  "release": "v2.4.0",
   "architecture": "TDC — Théorie de densification de la conscience Gen2.4",
   "frozen_benchmarks": [
     "v239",
     "v240"
   ],
-  "github_status": "ready_for_manual_upload",
+  "github_status": "published",
   "license_status": "MIT",
   "supported_claim": "long-horizon evaluation outperforms conventional discounted optimization in synthetic benchmarks",
   "unsupported_claim": "full TDC superiority over strong long-horizon/simple-principle baselines",
@@ -13,5 +13,6 @@
   "license": "MIT",
   "official_model_name": "TDC — Théorie de densification de la conscience",
   "short_name": "TDC",
-  "repository_name": "TDC"
+  "repository_name": "mariehelenemarcoux/TDC-Theorie-de-densification-de-la-conscience-ethique",
+  "public_tag": "v2.4.0"
 }

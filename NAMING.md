@@ -8,9 +8,13 @@ Short name:
 
 **TDC**
 
-Repository name:
+Repository:
 
-`TDC`
+`mariehelenemarcoux/TDC-Theorie-de-densification-de-la-conscience-ethique`
+
+Current public release:
+
+`v2.4.0`
 
 Recommended citation name:
 
