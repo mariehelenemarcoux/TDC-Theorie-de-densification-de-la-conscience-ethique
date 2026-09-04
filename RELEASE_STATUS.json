@@ -1,0 +1,17 @@
+{
+  "release": "v0.2.0-gen2.4",
+  "architecture": "TDC — Théorie de densification de la conscience Gen2.4",
+  "frozen_benchmarks": [
+    "v239",
+    "v240"
+  ],
+  "github_status": "ready_for_manual_upload",
+  "license_status": "MIT",
+  "supported_claim": "long-horizon evaluation outperforms conventional discounted optimization in synthetic benchmarks",
+  "unsupported_claim": "full TDC superiority over strong long-horizon/simple-principle baselines",
+  "next_branch": "research/gen2.5",
+  "license": "MIT",
+  "official_model_name": "TDC — Théorie de densification de la conscience",
+  "short_name": "TDC",
+  "repository_name": "TDC"
+}

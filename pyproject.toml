@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+license = { text = "MIT" }
+name = "tdc-gen23"
+version = "0.2.0"
+description = "TDC — Théorie de densification de la conscience — developmental normative AI research architecture"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
