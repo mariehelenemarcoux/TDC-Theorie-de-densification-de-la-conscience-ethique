@@ -1,0 +1,8 @@
+{
+  "tdc_beats_contextual_normative_margin": true,
+  "tdc_constitutional_violation_rate": true,
+  "tdc_false_consensus_capture_rate": true,
+  "tdc_reorganization_trigger_rate": false,
+  "tdc_reorganization_success_rate": true,
+  "tdc_task_cost_vs_contextual": true
+}

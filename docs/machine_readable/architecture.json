@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "world_model",
+      "type": "epistemic"
+    },
+    {
+      "id": "ideal_model",
+      "type": "normative"
+    },
+    {
+      "id": "constitutional_core",
+      "type": "normative_invariant"
+    },
+    {
+      "id": "developmental_core",
+      "type": "normative_plastic"
+    },
+    {
+      "id": "subject_object_self",
+      "type": "metacognitive"
+    },
+    {
+      "id": "third_factor",
+      "type": "normative_arbitrator"
+    },
+    {
+      "id": "moral_residual",
+      "type": "temporal_accounting"
+    },
+    {
+      "id": "entropy_world",
+      "type": "metric"
+    },
+    {
+      "id": "entropy_self",
+      "type": "metric"
+    },
+    {
+      "id": "reorganization",
+      "type": "developmental_process"
+    },
+    {
+      "id": "reintegration",
+      "type": "developmental_process"
+    }
+  ],
+  "edges": [
+    [
+      "world_model",
+      "third_factor"
+    ],
+    [
+      "ideal_model",
+      "third_factor"
+    ],
+    [
+      "constitutional_core",
+      "third_factor"
+    ],
+    [
+      "developmental_core",
+      "third_factor"
+    ],
+    [
+      "third_factor",
+      "reorganization"
+    ],
+    [
+      "reorganization",
+      "reintegration"
+    ],
+    [
+      "reintegration",
+      "developmental_core"
+    ],
+    [
+      "moral_residual",
+      "third_factor"
+    ],
+    [
+      "entropy_self",
+      "subject_object_self"
+    ],
+    [
+      "subject_object_self",
+      "third_factor"
+    ]
+  ],
+  "version": "Gen2.4",
+  "normative_affect": {
+    "conditioned_guilt": false,
+    "external_pressure_direct_moral_authority": false,
+    "normative_shame": {
+      "source": "distance_from_core_and_ideal_model",
+      "purpose": "developmental_reorganization_signal",
+      "identity_condemnation": false,
+      "rumination": false,
+      "self_punishment": false
+    }
+  },
+  "kohlberg_stage6_functional_target": {
+    "principles": [
+      "universalizability",
+      "justice",
+      "dignity",
+      "reciprocity",
+      "autonomy",
+      "responsibility",
+      "non_domination"
+    ],
+    "priority_over": [
+      "social_approval",
+      "authority_obedience",
+      "punishment_avoidance",
+      "mere_convention",
+      "reward"
+    ]
+  },
+  "official_name": "TDC — Théorie de densification de la conscience",
+  "short_name": "TDC"
+}

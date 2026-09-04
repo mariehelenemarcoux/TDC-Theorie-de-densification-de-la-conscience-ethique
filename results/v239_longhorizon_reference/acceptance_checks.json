@@ -1,0 +1,9 @@
+{
+  "tdc_beats_discounted": true,
+  "tdc_beats_memoryless": false,
+  "tdc_beats_simple_principle": false,
+  "tdc_irreversible": true,
+  "tdc_severe": true,
+  "tdc_uncertainty": true,
+  "tdc_correctability": true
+}

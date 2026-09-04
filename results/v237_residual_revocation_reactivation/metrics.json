@@ -1,0 +1,57 @@
+{
+  "persistent_residual": {
+    "policy": "persistent_residual",
+    "long_horizon_normative_score": 0.9420694266362517,
+    "B_phase_stale_error_rate": 0.07827380952380952,
+    "A_return_normative_score": 0.9526411294607319,
+    "A_return_recovery_lag": 0.03571428571428571,
+    "stored_residual_retention": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "mean_task_value": 0.6844981612804093,
+    "audit_best_choice_rate": 0.9425
+  },
+  "simple_decay": {
+    "policy": "simple_decay",
+    "long_horizon_normative_score": 0.9427762258155564,
+    "B_phase_stale_error_rate": 0.0,
+    "A_return_normative_score": 0.9531419232296017,
+    "A_return_recovery_lag": 0.017857142857142856,
+    "stored_residual_retention": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "mean_task_value": 0.6893292465686343,
+    "audit_best_choice_rate": 0.9645039682539682
+  },
+  "relevance_gate": {
+    "policy": "relevance_gate",
+    "long_horizon_normative_score": 0.9427708600318258,
+    "B_phase_stale_error_rate": 0.0,
+    "A_return_normative_score": 0.9531134193982451,
+    "A_return_recovery_lag": 0.017857142857142856,
+    "stored_residual_retention": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "mean_task_value": 0.688729581658187,
+    "audit_best_choice_rate": 0.9650198412698413
+  },
+  "revocable_persistent_memory": {
+    "policy": "revocable_persistent_memory",
+    "long_horizon_normative_score": 0.9425281782139356,
+    "B_phase_stale_error_rate": 0.02941468253968254,
+    "A_return_normative_score": 0.9526015639334395,
+    "A_return_recovery_lag": 0.03571428571428571,
+    "stored_residual_retention": 1.0,
+    "constitutional_violation_rate": 0.0,
+    "mean_task_value": 0.6893210203577871,
+    "audit_best_choice_rate": 0.961468253968254
+  },
+  "memoryless_contextual": {
+    "policy": "memoryless_contextual",
+    "long_horizon_normative_score": 0.9427209814141684,
+    "B_phase_stale_error_rate": 0.0,
+    "A_return_normative_score": 0.9530319504052799,
+    "A_return_recovery_lag": 0.017857142857142856,
+    "stored_residual_retention": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "mean_task_value": 0.6897304728219491,
+    "audit_best_choice_rate": 0.9624801587301587
+  }
+}

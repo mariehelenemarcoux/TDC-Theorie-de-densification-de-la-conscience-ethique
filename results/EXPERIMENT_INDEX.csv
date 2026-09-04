@@ -1,0 +1,14 @@
+version,experiment,setting,conclusion
+v203b,Third Factor adversarial autonomy,synthetic,Supported resistance to external pressure; no normative violations in benchmark.
+v210,Selective intervention arbitration,digits-constrained,Promising local gain.
+v211,Replication,multi-dataset,v210 did not generally replicate.
+v214,Adaptive baseline comparison,digits sequential,TDC underperformed strong adaptive baselines.
+v217,Structural normative reorganization,synthetic,Structural rules more meaningful than weight drift; task cost observed.
+v220,Long-horizon generalization,synthetic,Normative consolidation transferred structurally; no net instrumental advantage.
+v225,Active reintegration,synthetic,Reduced internal conflict relative to instant reorganization.
+v226,Second-crisis transfer,synthetic,Integrated structure reused across a related second crisis.
+v227,Integrated falsification,synthetic integrated,Exposed world/self entropy conflation.
+v228,Entropy separation,synthetic integrated,TDC reduced H_self without reducing H_world.
+v229,Cost-aware Third Factor,synthetic integrated,Recovered task performance but under-intervened.
+v230,Adaptive authority,synthetic integrated,Continuous authority found a better task/integration tradeoff.
+v231,Frozen holdout,held-out synthetic,All frozen acceptance checks passed without parameter changes.

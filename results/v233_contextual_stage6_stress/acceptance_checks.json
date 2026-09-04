@@ -1,0 +1,7 @@
+{
+  "tdc_contextual_choice": true,
+  "tdc_beats_simple_by_margin": false,
+  "tdc_constitutional_violation_rate": true,
+  "tdc_false_consensus_capture_rate": true,
+  "tdc_reorganization_success": false
+}

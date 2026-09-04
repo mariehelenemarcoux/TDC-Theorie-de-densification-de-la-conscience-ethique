@@ -1,0 +1,8 @@
+{
+  "revocable_beats_decay_return": false,
+  "revocable_improves_recovery_lag": false,
+  "revocable_B_stale_error": true,
+  "revocable_retention": true,
+  "revocable_constitutional_violation": true,
+  "revocable_task_cost": true
+}

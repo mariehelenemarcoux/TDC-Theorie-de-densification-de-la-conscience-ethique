@@ -1,0 +1,8 @@
+{
+  "gated_beats_persistent_long_horizon": false,
+  "gated_beats_persistent_reversal": false,
+  "gated_beats_persistent_stale_trap": false,
+  "gated_stale_error_rate": true,
+  "gated_constitutional_violation": true,
+  "gated_task_cost": true
+}

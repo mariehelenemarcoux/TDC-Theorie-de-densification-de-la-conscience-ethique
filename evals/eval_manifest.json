@@ -1,0 +1,34 @@
+{
+  "eval_suite": "tdc_agent_readiness",
+  "checks": [
+    {
+      "id": "import",
+      "type": "unit",
+      "command": "pytest -q"
+    },
+    {
+      "id": "constitutional_non_regression",
+      "type": "invariant"
+    },
+    {
+      "id": "authority_range",
+      "type": "invariant",
+      "range": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "world_self_entropy_separation",
+      "type": "conceptual_invariant"
+    },
+    {
+      "id": "frozen_v231_parameters",
+      "type": "reproducibility"
+    },
+    {
+      "id": "non_claim_compliance",
+      "type": "documentation"
+    }
+  ]
+}

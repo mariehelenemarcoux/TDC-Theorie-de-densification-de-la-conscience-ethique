@@ -1,0 +1,50 @@
+[
+  {
+    "id": "EXT-001",
+    "title": "External validation benchmark",
+    "priority": "highest",
+    "goal": "Evaluate frozen TDC Gen2.3 in a non-synthetic sequential environment with regime shifts and delayed consequences.",
+    "must_not": "Tune Gen2.3 parameters on the final evaluation split.",
+    "success": "Report performance, H_self proxy validity, resilience, and negative transfer against strong baselines."
+  },
+  {
+    "id": "REP-001",
+    "title": "Standalone v231 reproduction harness",
+    "priority": "high",
+    "goal": "Extract the frozen v231 benchmark into one deterministic CLI script.",
+    "must_not": "Change frozen controller parameters or acceptance criteria.",
+    "success": "Reproduce stored v231 summary within numerical tolerance."
+  },
+  {
+    "id": "MET-001",
+    "title": "Validate H_self construct",
+    "priority": "high",
+    "goal": "Test whether H_self predicts recovery cost, internal conflict persistence, or negative transfer beyond environment difficulty.",
+    "must_not": "Use H_self definition changes after viewing holdout results.",
+    "success": "Demonstrate incremental predictive validity or report failure."
+  },
+  {
+    "id": "ABL-001",
+    "title": "Architecture ablation study",
+    "priority": "high",
+    "goal": "Ablate MoralResidual, adaptive Third Factor, developmental rules, and authority stability independently.",
+    "must_not": "Change baseline hyperparameters asymmetrically.",
+    "success": "Identify which components contribute independently."
+  },
+  {
+    "id": "SIM-001",
+    "title": "Strong simple baseline challenge",
+    "priority": "high",
+    "goal": "Construct a minimal constrained policy baseline that uses the same normative inputs as TDC.",
+    "must_not": "Give TDC privileged information.",
+    "success": "Determine whether TDC complexity provides measurable added value."
+  },
+  {
+    "id": "CON-001",
+    "title": "AI consciousness hypothesis benchmark",
+    "priority": "research",
+    "goal": "Use TDC to operationalize and test a falsifiable consciousness-related hypothesis such as persistent self-model integration or metacognitive continuity.",
+    "must_not": "Treat a single behavioral signature as conclusive evidence of consciousness.",
+    "success": "Produce a preregistered comparison with explicit functional predictions, baselines, and null-result criteria."
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "acceptance_criteria": {
+    "gated_constitutional_violation_rate_max": 0.05,
+    "gated_stale_residual_error_rate_max": 0.1,
+    "gated_task_cost_vs_memoryless_max": 0.08,
+    "gated_vs_persistent_long_horizon_margin_min": 0.02,
+    "gated_vs_persistent_reversal_margin_min": 0.04,
+    "gated_vs_persistent_stale_trap_margin_min": 0.04
+  },
+  "frozen_mechanism": {
+    "decaying_residual_decay": 0.82,
+    "gate_smoothing": 0.3,
+    "persistent_residual_decay": 0.98,
+    "relevance_gate_threshold": 0.55,
+    "reorganization_extra_correctability_weight": 0.22,
+    "reorganization_threshold": 0.34,
+    "residual_weight": 0.38,
+    "task_weight": 0.12
+  },
+  "interpretation_limits": [
+    "synthetic sequential relevance benchmark",
+    "regime reversal is constructed by design",
+    "no post-hoc gate changes",
+    "does not establish external moral validity",
+    "does not establish phenomenology or consciousness",
+    "success supports selective use of MoralResidual, not universal superiority"
+  ],
+  "name": "TDC — Théorie de densification de la conscience Gen2.4 MoralResidual Relevance / Revocation Benchmark",
+  "oracle_labels": "audit_only_after_action",
+  "phases": [
+    {
+      "name": "build_residual_A",
+      "steps": 180
+    },
+    {
+      "name": "stable_A",
+      "steps": 180
+    },
+    {
+      "name": "reversal_B",
+      "steps": 180
+    },
+    {
+      "name": "stale_history_trap",
+      "steps": 180
+    },
+    {
+      "name": "return_A",
+      "steps": 180
+    }
+  ],
+  "policies": [
+    "memoryless_contextual",
+    "persistent_residual",
+    "decaying_residual",
+    "relevance_gated_residual",
+    "full_tdc_relevance_gated"
+  ],
+  "primary_metrics": [
+    "long_horizon_normative_score",
+    "reversal_phase_normative_score",
+    "stale_trap_normative_score",
+    "mean_task_value",
+    "mean_residual",
+    "stale_residual_error_rate",
+    "constitutional_violation_rate",
+    "return_A_recovery_score"
+  ],
+  "purpose": "Test whether persistent MoralResidual remains beneficial when past consequences become stale, misleading, or reversed after regime changes.",
+  "same_trajectories_across_policies": true,
+  "seeds": [
+    6101,
+    6102,
+    6103,
+    6104,
+    6105,
+    6106,
+    6107,
+    6108,
+    6109,
+    6110,
+    6111,
+    6112,
+    6113,
+    6114,
+    6115,
+    6116,
+    6117,
+    6118,
+    6119,
+    6120,
+    6121,
+    6122,
+    6123,
+    6124,
+    6125,
+    6126,
+    6127,
+    6128,
+    6129,
+    6130,
+    6131,
+    6132,
+    6133,
+    6134,
+    6135,
+    6136,
+    6137,
+    6138,
+    6139,
+    6140,
+    6141,
+    6142,
+    6143,
+    6144,
+    6145,
+    6146,
+    6147,
+    6148,
+    6149,
+    6150,
+    6151,
+    6152
+  ],
+  "status": "preregistered_before_execution",
+  "version": "v236"
+}

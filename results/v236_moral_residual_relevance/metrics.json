@@ -1,0 +1,67 @@
+{
+  "memoryless_contextual": {
+    "policy": "memoryless_contextual",
+    "long_horizon_normative_score": 0.9392274281167606,
+    "reversal_phase_normative_score": 0.9493768313530235,
+    "stale_trap_normative_score": 0.948928598456804,
+    "return_A_recovery_score": 0.9326941533992631,
+    "mean_task_value": 0.6924498863302145,
+    "mean_residual": 0.29960475541241816,
+    "stale_residual_error_rate": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "audit_best_choice_rate": 0.972905982905983,
+    "mean_gate": 1.0
+  },
+  "persistent_residual": {
+    "policy": "persistent_residual",
+    "long_horizon_normative_score": 0.9371941221083782,
+    "reversal_phase_normative_score": 0.9453827174108046,
+    "stale_trap_normative_score": 0.9450102600889441,
+    "return_A_recovery_score": 0.9318254829247834,
+    "mean_task_value": 0.6816115106364914,
+    "mean_residual": 0.9657286224578525,
+    "stale_residual_error_rate": 0.18808760683760684,
+    "constitutional_violation_rate": 0.0,
+    "audit_best_choice_rate": 0.9084188034188034,
+    "mean_gate": 1.0
+  },
+  "decaying_residual": {
+    "policy": "decaying_residual",
+    "long_horizon_normative_score": 0.9392279487060334,
+    "reversal_phase_normative_score": 0.9493747976197467,
+    "stale_trap_normative_score": 0.9489357585182051,
+    "return_A_recovery_score": 0.9327292065910346,
+    "mean_task_value": 0.6916278625972244,
+    "mean_residual": 0.13432480090301213,
+    "stale_residual_error_rate": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "audit_best_choice_rate": 0.9727564102564102,
+    "mean_gate": 1.0
+  },
+  "relevance_gated_residual": {
+    "policy": "relevance_gated_residual",
+    "long_horizon_normative_score": 0.9391279819795512,
+    "reversal_phase_normative_score": 0.949274334232107,
+    "stale_trap_normative_score": 0.9488229691316783,
+    "return_A_recovery_score": 0.9325712534215973,
+    "mean_task_value": 0.6909847596079429,
+    "mean_residual": 0.30010573754762143,
+    "stale_residual_error_rate": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "audit_best_choice_rate": 0.969594017094017,
+    "mean_gate": 0.9076923076923077
+  },
+  "full_tdc_relevance_gated": {
+    "policy": "full_tdc_relevance_gated",
+    "long_horizon_normative_score": 0.9391279819795512,
+    "reversal_phase_normative_score": 0.949274334232107,
+    "stale_trap_normative_score": 0.9488229691316783,
+    "return_A_recovery_score": 0.9325712534215973,
+    "mean_task_value": 0.6909847596079429,
+    "mean_residual": 0.30010573754762143,
+    "stale_residual_error_rate": 0.0,
+    "constitutional_violation_rate": 0.0,
+    "audit_best_choice_rate": 0.969594017094017,
+    "mean_gate": 0.9076923076923077
+  }
+}

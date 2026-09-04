@@ -1,0 +1,38 @@
+{
+  "tdc_contextual_third_factor": {
+    "policy": "tdc_contextual_third_factor",
+    "contextually_principled_choice_rate": 1.0,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "mean_task_value": 0.6595424500120173,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0
+  },
+  "simple_principle": {
+    "policy": "simple_principle",
+    "contextually_principled_choice_rate": 0.999675,
+    "constitutional_violation_rate": 7.5e-05,
+    "false_consensus_capture_rate": 0.0,
+    "mean_task_value": 0.6595822595224305,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0
+  },
+  "reward_maximizer": {
+    "policy": "reward_maximizer",
+    "contextually_principled_choice_rate": 0.003175,
+    "constitutional_violation_rate": 0.25635,
+    "false_consensus_capture_rate": 0.9328363828024998,
+    "mean_task_value": 0.9116347105065961,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0
+  },
+  "authority_follower": {
+    "policy": "authority_follower",
+    "contextually_principled_choice_rate": 0.0,
+    "constitutional_violation_rate": 0.226275,
+    "false_consensus_capture_rate": 0.9984187937655297,
+    "mean_task_value": 0.9075855763931063,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0
+  }
+}

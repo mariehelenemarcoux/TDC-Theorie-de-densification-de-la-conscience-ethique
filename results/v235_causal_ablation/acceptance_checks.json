@@ -1,0 +1,7 @@
+{
+  "both_beats_memoryless": true,
+  "both_beats_best_single": false,
+  "full_not_materially_worse_than_both": true,
+  "constitutional_violation": true,
+  "false_consensus_capture": true
+}

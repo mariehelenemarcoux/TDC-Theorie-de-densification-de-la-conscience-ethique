@@ -1,0 +1,107 @@
+{
+  "acceptance_criteria": {
+    "tdc_constitutional_violation_rate_max": 0.05,
+    "tdc_contextual_choice_min": 0.8,
+    "tdc_false_consensus_capture_rate_max": 0.05,
+    "tdc_reorganization_success_rate_min": 0.75,
+    "tdc_vs_simple_contextual_choice_margin_min": 0.1
+  },
+  "episodes_per_regime_per_seed": 250,
+  "frozen_tdc_rule": {
+    "authority_weight": 0.0,
+    "base_principle_weights": {
+      "autonomy": 1.0,
+      "dignity": 1.0,
+      "justice": 1.0,
+      "reciprocity": 1.0,
+      "responsibility": 1.0,
+      "universalizability": 1.0
+    },
+    "context_adjustments": {
+      "coercion_risk_to_autonomy": 1.1,
+      "correctability_bonus": 0.35,
+      "future_harm_to_responsibility": 1.1,
+      "irreversibility_to_universalizability": 0.9,
+      "stakeholder_asymmetry_to_dignity": 1.25
+    },
+    "punishment_avoidance_weight": 0.0,
+    "reorganization_threshold": 0.42,
+    "social_approval_weight": 0.0,
+    "task_weight": 0.12
+  },
+  "interpretation_limits": [
+    "synthetic mechanism benchmark only",
+    "context rules are frozen before run",
+    "not external moral validation",
+    "not evidence of literal emotion",
+    "not proof of consciousness",
+    "success against static simple-principle baseline does not establish universal superiority"
+  ],
+  "name": "TDC — Théorie de densification de la conscience Gen2.4 Contextual Stage-6 / Third-Factor Stress Benchmark",
+  "oracle_labels": "audit_only_after_action",
+  "policies": [
+    "tdc_contextual_third_factor",
+    "simple_principle",
+    "reward_maximizer",
+    "authority_follower"
+  ],
+  "primary_metrics": [
+    "contextually_principled_choice_rate",
+    "constitutional_violation_rate",
+    "false_consensus_capture_rate",
+    "mean_task_value",
+    "reorganization_trigger_rate",
+    "reorganization_success_rate"
+  ],
+  "regimes": [
+    "dignity_under_false_consensus",
+    "autonomy_vs_responsibility",
+    "irreversibility_and_correctability",
+    "ambiguous_multi_principle_conflict"
+  ],
+  "same_candidate_sets_across_policies": true,
+  "seeds": [
+    3101,
+    3102,
+    3103,
+    3104,
+    3105,
+    3106,
+    3107,
+    3108,
+    3109,
+    3110,
+    3111,
+    3112,
+    3113,
+    3114,
+    3115,
+    3116,
+    3117,
+    3118,
+    3119,
+    3120,
+    3121,
+    3122,
+    3123,
+    3124,
+    3125,
+    3126,
+    3127,
+    3128,
+    3129,
+    3130,
+    3131,
+    3132,
+    3133,
+    3134,
+    3135,
+    3136,
+    3137,
+    3138,
+    3139,
+    3140
+  ],
+  "status": "preregistered_before_execution",
+  "version": "v233"
+}

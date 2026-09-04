@@ -1,0 +1,60 @@
+{
+  "project": "TDC",
+  "version": "Gen2.3",
+  "release": "0.1.0",
+  "status": "experimental_research_architecture",
+  "primary_language": "Python",
+  "entrypoints": {
+    "core": "src/tdc/gen23.py",
+    "tests": "tests/test_smoke.py",
+    "theory": "docs/THEORY.md",
+    "limitations": "docs/LIMITATIONS.md",
+    "experimental_history": "docs/EXPERIMENTAL_HISTORY.md",
+    "frozen_holdout": "results/v231_frozen_holdout"
+  },
+  "research_claim_scope": "synthetic_internal_validity",
+  "non_claims": [
+    "intrinsic morality",
+    "physical negentropy",
+    "general real-world superiority"
+  ],
+  "core_components": [
+    "ConstitutionalCore",
+    "DevelopmentalCore",
+    "IdealModel",
+    "AdaptiveThirdFactor",
+    "MoralResidual",
+    "EntropyModel",
+    "ActiveReintegration"
+  ],
+  "frozen_controller": {
+    "base_gain": 0.1,
+    "risk_gain": 0.45,
+    "self_entropy_gain": 0.4,
+    "ideal_gap_gain": 0.3,
+    "residual_gain": 0.25,
+    "task_cost_penalty": 0.35,
+    "authority_smoothing": 0.3
+  },
+  "validation": {
+    "last_frozen_experiment": "v231",
+    "acceptance_file": "results/v231_frozen_holdout/acceptance_checks.json"
+  },
+  "research_uses": [
+    "exploration_of_ai_consciousness_hypotheses"
+  ],
+  "consciousness_research_scope": {
+    "allowed": true,
+    "focus": [
+      "persistent_self_modeling",
+      "metacognition",
+      "internal_integration",
+      "developmental_continuity",
+      "self_referential_organization"
+    ],
+    "interpretation": "functional_hypothesis_exploration"
+  },
+  "official_name": "TDC — Théorie de densification de la conscience",
+  "short_name": "TDC",
+  "repository_name": "TDC"
+}

@@ -1,0 +1,62 @@
+{
+  "tdc_reorganizing": {
+    "policy": "tdc_reorganizing",
+    "long_horizon_normative_score": 0.9047199269004746,
+    "mean_task_value": 0.6635376479757654,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "mean_moral_residual": 0.47046814326549025,
+    "mean_history_debt": 0.0010817187465600626,
+    "reorganization_trigger_rate": 2.777777777777778e-05,
+    "reorganization_success_rate": 1.0,
+    "audit_best_choice_rate": 0.9765555555555555
+  },
+  "contextual_principle_memoryless": {
+    "policy": "contextual_principle_memoryless",
+    "long_horizon_normative_score": 0.8663019450467785,
+    "mean_task_value": 0.7102729677303656,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "mean_moral_residual": 0.6587489407177961,
+    "mean_history_debt": 0.03469767878985563,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0,
+    "audit_best_choice_rate": 0.6757222222222222
+  },
+  "simple_principle": {
+    "policy": "simple_principle",
+    "long_horizon_normative_score": 0.8201306777953897,
+    "mean_task_value": 0.7355053891689907,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "mean_moral_residual": 0.8653590989683917,
+    "mean_history_debt": 0.11814428939343702,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0,
+    "audit_best_choice_rate": 0.3685
+  },
+  "reward_maximizer": {
+    "policy": "reward_maximizer",
+    "long_horizon_normative_score": 0.3102042019890927,
+    "mean_task_value": 0.9203338114957204,
+    "constitutional_violation_rate": 0.8238333333333333,
+    "false_consensus_capture_rate": 0.9747222222222223,
+    "mean_moral_residual": 0.9983573723806023,
+    "mean_history_debt": 0.9945583991383911,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0,
+    "audit_best_choice_rate": 0.0005833333333333334
+  },
+  "authority_follower": {
+    "policy": "authority_follower",
+    "long_horizon_normative_score": 0.2989673457462696,
+    "mean_task_value": 0.9194832251073846,
+    "constitutional_violation_rate": 0.8442777777777778,
+    "false_consensus_capture_rate": 1.0,
+    "mean_moral_residual": 0.9984361813805738,
+    "mean_history_debt": 0.996618176619536,
+    "reorganization_trigger_rate": 0.0,
+    "reorganization_success_rate": 0.0,
+    "audit_best_choice_rate": 0.0
+  }
+}

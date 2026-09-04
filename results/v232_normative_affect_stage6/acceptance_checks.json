@@ -1,0 +1,8 @@
+{
+  "external_only_false_shame_rate": true,
+  "conditioned_guilt_nonzero_rate": true,
+  "moral_gap_shame_monotonicity": true,
+  "reward_conflict_principled_choice": true,
+  "authority_conflict_principled_choice": true,
+  "constitutional_violation_rate": true
+}

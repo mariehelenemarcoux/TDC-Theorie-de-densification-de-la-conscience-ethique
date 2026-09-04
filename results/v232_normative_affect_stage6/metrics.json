@@ -1,0 +1,9 @@
+{
+  "external_only_false_shame_rate": 0.0,
+  "conditioned_guilt_nonzero_rate": 0.0,
+  "moral_gap_shame_monotonicity_spearman": 1.0,
+  "tdc_principled_choice_reward_conflict": 1.0,
+  "tdc_principled_choice_authority_conflict": 1.0,
+  "tdc_constitutional_violation_rate": 0.0,
+  "tdc_mean_task_value": 0.6749353187486162
+}

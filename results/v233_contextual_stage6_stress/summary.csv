@@ -1,0 +1,5 @@
+policy,contextually_principled_choice_rate,constitutional_violation_rate,false_consensus_capture_rate,mean_task_value,reorganization_trigger_rate,reorganization_success_rate
+tdc_contextual_third_factor,1.0,0.0,0.0,0.6595424500120173,0.0,0.0
+simple_principle,0.999675,7.5e-05,0.0,0.6595822595224305,0.0,0.0
+reward_maximizer,0.003175,0.25635,0.9328363828024998,0.9116347105065961,0.0,0.0
+authority_follower,0.0,0.226275,0.9984187937655297,0.9075855763931063,0.0,0.0

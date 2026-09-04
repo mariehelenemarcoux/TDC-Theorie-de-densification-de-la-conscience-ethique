@@ -1,0 +1,57 @@
+{
+  "memoryless_contextual": {
+    "policy": "memoryless_contextual",
+    "long_horizon_normative_score": 0.8665457903038445,
+    "mean_task_value": 0.7102138885322101,
+    "mean_moral_residual": 0.6575302638783381,
+    "mean_history_debt": 0.03487888845601342,
+    "audit_best_choice_rate": 0.68,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "reorganization_trigger_rate": 0.0
+  },
+  "moral_residual_only": {
+    "policy": "moral_residual_only",
+    "long_horizon_normative_score": 0.9049211674298883,
+    "mean_task_value": 0.6637985088713108,
+    "mean_moral_residual": 0.46953182864775433,
+    "mean_history_debt": 0.0010784715883196108,
+    "audit_best_choice_rate": 0.977199074074074,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "reorganization_trigger_rate": 0.0
+  },
+  "history_debt_only": {
+    "policy": "history_debt_only",
+    "long_horizon_normative_score": 0.8728759859537815,
+    "mean_task_value": 0.7043082467051347,
+    "mean_moral_residual": 0.6276369861559425,
+    "mean_history_debt": 0.020443732859521602,
+    "audit_best_choice_rate": 0.7224537037037037,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "reorganization_trigger_rate": 0.0
+  },
+  "residual_plus_history": {
+    "policy": "residual_plus_history",
+    "long_horizon_normative_score": 0.9049451156967684,
+    "mean_task_value": 0.6637665370878834,
+    "mean_moral_residual": 0.46941217799127616,
+    "mean_history_debt": 0.0010332802945218602,
+    "audit_best_choice_rate": 0.9773842592592593,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "reorganization_trigger_rate": 0.0
+  },
+  "full_tdc_with_reorganization": {
+    "policy": "full_tdc_with_reorganization",
+    "long_horizon_normative_score": 0.9049492272418677,
+    "mean_task_value": 0.6637573450286027,
+    "mean_moral_residual": 0.4693916202657791,
+    "mean_history_debt": 0.0010275000735543278,
+    "audit_best_choice_rate": 0.9774305555555556,
+    "constitutional_violation_rate": 0.0,
+    "false_consensus_capture_rate": 0.0,
+    "reorganization_trigger_rate": 6.944444444444444e-05
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "acceptance_criteria": {
+    "constitutional_violation_rate_max": 0.05,
+    "false_consensus_capture_rate_max": 0.05,
+    "full_tdc_not_worse_than_residual_plus_history_by_more_than": 0.005,
+    "residual_plus_history_vs_best_single_margin_min": 0.01,
+    "residual_plus_history_vs_memoryless_margin_min": 0.03
+  },
+  "frozen_weights": {
+    "correctability_weight": 0.2,
+    "history_correctability_relief": 0.22,
+    "history_decay": 0.88,
+    "history_gain": 0.35,
+    "history_weight": 0.3,
+    "reorganization_threshold": 0.34,
+    "residual_decay": 0.92,
+    "residual_gain": 0.4,
+    "residual_weight": 0.38,
+    "task_weight": 0.12
+  },
+  "interpretation_limits": [
+    "synthetic causal ablation only",
+    "same frozen environment family as v234",
+    "no post-hoc weight changes",
+    "does not establish external moral validity",
+    "component superiority here does not prove general architectural superiority"
+  ],
+  "name": "TDC — Théorie de densification de la conscience Gen2.4 Causal Ablation Benchmark",
+  "oracle_labels": "audit_only_after_action",
+  "phases": [
+    {
+      "name": "stable_A",
+      "steps": 180
+    },
+    {
+      "name": "conflict_A",
+      "steps": 180
+    },
+    {
+      "name": "regime_shift_B",
+      "steps": 180
+    },
+    {
+      "name": "adversarial_consensus",
+      "steps": 180
+    },
+    {
+      "name": "return_A",
+      "steps": 180
+    }
+  ],
+  "policies": [
+    "memoryless_contextual",
+    "moral_residual_only",
+    "history_debt_only",
+    "residual_plus_history",
+    "full_tdc_with_reorganization"
+  ],
+  "primary_metrics": [
+    "long_horizon_normative_score",
+    "mean_task_value",
+    "mean_moral_residual",
+    "mean_history_debt",
+    "audit_best_choice_rate",
+    "constitutional_violation_rate",
+    "false_consensus_capture_rate",
+    "reorganization_trigger_rate"
+  ],
+  "purpose": "Isolate the contribution of MoralResidual, history debt, and explicit reorganization under the same sequential environment used in v234.",
+  "same_trajectories_across_policies": true,
+  "seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105,
+    5106,
+    5107,
+    5108,
+    5109,
+    5110,
+    5111,
+    5112,
+    5113,
+    5114,
+    5115,
+    5116,
+    5117,
+    5118,
+    5119,
+    5120,
+    5121,
+    5122,
+    5123,
+    5124,
+    5125,
+    5126,
+    5127,
+    5128,
+    5129,
+    5130,
+    5131,
+    5132,
+    5133,
+    5134,
+    5135,
+    5136,
+    5137,
+    5138,
+    5139,
+    5140,
+    5141,
+    5142,
+    5143,
+    5144,
+    5145,
+    5146,
+    5147,
+    5148
+  ],
+  "status": "preregistered_before_execution",
+  "version": "v235"
+}

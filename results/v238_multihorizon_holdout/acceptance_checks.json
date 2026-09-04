@@ -1,0 +1,9 @@
+{
+  "tdc_beats_discounted_trajectory": true,
+  "tdc_beats_memoryless_trajectory": false,
+  "tdc_irreversible_violation": true,
+  "tdc_severe_long_term_violation": true,
+  "tdc_uncertainty_underestimation": true,
+  "tdc_short_term_cost": false,
+  "tdc_correctability": true
+}

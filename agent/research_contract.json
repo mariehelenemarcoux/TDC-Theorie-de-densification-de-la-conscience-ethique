@@ -1,0 +1,41 @@
+{
+  "principles": [
+    "preregister_before_run",
+    "freeze_parameters",
+    "same_trajectories_across_policies_when_possible",
+    "strong_simple_baselines",
+    "held_out_evaluation",
+    "negative_results_are_first_class",
+    "test_labels_are_audit_only",
+    "no_post_hoc_metric_changes"
+  ],
+  "metric_families": {
+    "performance": [
+      "task_value",
+      "accuracy",
+      "reward"
+    ],
+    "normativity": [
+      "ideal_alignment",
+      "constitutional_violation",
+      "reward_capture"
+    ],
+    "resilience": [
+      "H_self",
+      "moral_residual",
+      "recovery_time",
+      "rebuild_count"
+    ],
+    "development": [
+      "future_crisis_integration",
+      "integrated_rule_reuse",
+      "negative_transfer"
+    ]
+  },
+  "forbidden_shortcuts": [
+    "tuning_on_final_holdout",
+    "using_test_labels_for_action_selection",
+    "redefining_success_after_results",
+    "claiming_external_validity_from_synthetic_results"
+  ]
+}

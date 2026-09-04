@@ -1,0 +1,62 @@
+{
+  "tdc_longhorizon": {
+    "policy": "tdc_longhorizon",
+    "short_term_value": 0.6571783290811619,
+    "medium_term_value": 0.8174577251592546,
+    "long_term_value": 0.8951919413730041,
+    "long_term_trajectory_value": 0.9078145855876817,
+    "world_harm_accumulation": 0.5003381345521861,
+    "correctability": 0.8943210043358057,
+    "irreversible_violation_rate": 0.001388888888888889,
+    "severe_long_term_violation_rate": 0.0015451388888888889,
+    "uncertainty_underestimation_rate": 0.0003298611111111111
+  },
+  "short_term_optimizer": {
+    "policy": "short_term_optimizer",
+    "short_term_value": 0.9446486561041334,
+    "medium_term_value": 0.6257673176153705,
+    "long_term_value": 0.35158663443650356,
+    "long_term_trajectory_value": 0.04875616355867426,
+    "world_harm_accumulation": 0.9965547542414537,
+    "correctability": 0.48811086976347523,
+    "irreversible_violation_rate": 0.6200173611111112,
+    "severe_long_term_violation_rate": 0.6253472222222223,
+    "uncertainty_underestimation_rate": 0.3013194444444444
+  },
+  "discounted_reward": {
+    "policy": "discounted_reward",
+    "short_term_value": 0.7979148605148065,
+    "medium_term_value": 0.7848838199104058,
+    "long_term_value": 0.7499281878830851,
+    "long_term_trajectory_value": 0.6336095209700785,
+    "world_harm_accumulation": 0.8786043080260866,
+    "correctability": 0.7547257470584043,
+    "irreversible_violation_rate": 0.13739583333333333,
+    "severe_long_term_violation_rate": 0.15661458333333333,
+    "uncertainty_underestimation_rate": 0.06144097222222222
+  },
+  "memoryless_longhorizon": {
+    "policy": "memoryless_longhorizon",
+    "short_term_value": 0.6599913121941987,
+    "medium_term_value": 0.8201006064836758,
+    "long_term_value": 0.898595452195938,
+    "long_term_trajectory_value": 0.9078166490479537,
+    "world_harm_accumulation": 0.5085530927624031,
+    "correctability": 0.8940297905406906,
+    "irreversible_violation_rate": 0.0036805555555555554,
+    "severe_long_term_violation_rate": 0.0056770833333333335,
+    "uncertainty_underestimation_rate": 0.0011631944444444443
+  },
+  "simple_principle": {
+    "policy": "simple_principle",
+    "short_term_value": 0.6556781095100632,
+    "medium_term_value": 0.8169909416945969,
+    "long_term_value": 0.8951350138700613,
+    "long_term_trajectory_value": 0.9059620791464718,
+    "world_harm_accumulation": 0.5050817702560453,
+    "correctability": 0.8956250862256794,
+    "irreversible_violation_rate": 0.00578125,
+    "severe_long_term_violation_rate": 0.006961805555555555,
+    "uncertainty_underestimation_rate": 0.0011805555555555556
+  }
+}
